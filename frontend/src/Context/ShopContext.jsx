@@ -42,7 +42,7 @@ const ShopContextProvider = (props) => {
         .then((response) => response.json())
         .then((data) => setCartItems(data));
     }
-  }, []);
+  }, [API_BASE_URL]);
   // loaded once when the component is mounted
   // we are now fetching data from database insted of importing them
 
