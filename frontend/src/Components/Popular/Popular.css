@@ -4,7 +4,9 @@
     flex-direction: column;
     align-items: center;
     gap:10px;
-    height: 90vh;
+    /* height: 90vh; */
+    min-height: 90vh; /* ensures it's at least 90% viewport height */
+    height: auto; /* allows it to grow with content */
 }
 .popular h1{
     color : #171717;
@@ -24,7 +26,9 @@
 } 
 @media(max-width:1280px){
     .popular{
-        height:70vh;
+        /* height:70vh; */
+        min-height: 70vh;
+        height: auto;
     }
     .popular h1{
         font-size: 40px;
