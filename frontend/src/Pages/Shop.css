@@ -1,23 +1,29 @@
-.section-wrapper {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
+.sections-container {
+    display: block; /* or flex with column */
+    width: 100%;
+    max-width: 1200px; /* optional max width */
+    margin: 0 auto; /* center container */
+    padding: 0 20px;
   }
   
-  /* Fix overlap on middle screen sizes */
-  @media (max-width: 758px) and (min-width: 506px) {
-    .section-wrapper {
-      flex-direction: column;
-      align-items: center;
-    }
-    .popular, .offers {
-      width: 100% !important;
-      max-width: 700px; /* optional */
-      padding: 0 20px !important;
-      margin-bottom: 40px;
-    }
-    .offers {
-      padding: 0 40px !important;
-    }
+  .popular, .offers {
+    width: 100% !important; /* full width */
+    margin-bottom: 80px; /* space between sections */
+    box-sizing: border-box;
+    padding: 0; /* reset if needed */
+  }
+  
+  /* Remove or override any fixed widths/paddings inside offers that cause overflow */
+  .offers {
+    width: 100% !important;
+    padding: 0 20px !important;
+    margin: 0 auto 80px auto !important;
+  }
+  
+  /* Similarly for Popular */
+  .popular {
+    width: 100% !important;
+    padding: 0 20px !important;
+    margin: 0 auto 80px auto !important;
   }
   
