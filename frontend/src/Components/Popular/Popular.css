@@ -7,6 +7,7 @@
     /* height: 90vh; */
     min-height: 90vh; /* ensures it's at least 90% viewport height */
     height: auto; /* allows it to grow with content */
+    margin-bottom: 80px;
 }
 .popular h1{
     color : #171717;
@@ -22,6 +23,7 @@
 .popular-item{
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     gap:30px;
 } 
 @media(max-width:1280px){
