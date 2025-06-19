@@ -1,0 +1,23 @@
+.section-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  /* Fix overlap on middle screen sizes */
+  @media (max-width: 758px) and (min-width: 506px) {
+    .section-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .popular, .offers {
+      width: 100% !important;
+      max-width: 700px; /* optional */
+      padding: 0 20px !important;
+      margin-bottom: 40px;
+    }
+    .offers {
+      padding: 0 40px !important;
+    }
+  }
+  
