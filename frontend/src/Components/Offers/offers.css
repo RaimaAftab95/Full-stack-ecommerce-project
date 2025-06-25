@@ -95,10 +95,6 @@
     }
 }
 @media(max-width:800px){
-   /* .offers{
-      margin-bottom: 60px;
-   } */
-
    .offers {
       height: auto;
       flex-direction: column;

@@ -1,10 +1,8 @@
 .popular{
-    /* margin-top: 300px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap:10px;
-    /* height: 90vh; */
     min-height: 90vh; /* ensures it's at least 90% viewport height */
     height: auto; /* allows it to grow with content */
     margin-bottom: 80px;
@@ -28,7 +26,6 @@
 } 
 @media(max-width:1280px){
     .popular{
-        /* height:70vh; */
         min-height: 70vh;
         height: auto;
     }
@@ -46,7 +43,6 @@
 }
 @media(max-width:1024px){
     .popular{
-        /* height:60vh; */
         height: auto;
         min-height: 30vh;
     }
@@ -64,9 +60,6 @@
 }
 @media(max-width:800px){
     .popular{
-        /* height:50vh;
-        gap:6px; */
-
         height: auto;
         min-height: auto;
         gap: 6px;
@@ -84,7 +77,6 @@
 }
 @media(max-width:500px){
     .popular{
-        /* height:90vh; */
         height: auto;
         min-height: auto;
         padding-bottom: 40px;
