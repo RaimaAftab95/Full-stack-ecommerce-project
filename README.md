@@ -86,3 +86,26 @@ Directory structure:
                     ├── LoginSignup.css
                     └── ShopCategory.css
 ```
+
+---
+
+## ✨ Features
+
+- ✅ Homepage with featured products
+- 🛍️ Add to cart functionality
+- 🧾 Cart page with quantity updates and total calculation
+- 🔍 Product details with description and related items
+- 🧠 Context API for global state management
+- 📱 Fully responsive across devices
+- 📦 Modular folder structure
+- 🖼️ Asset-based product and collection data
+
+---
+## 📦 Tech Stack
+
+- **Frontend**: React.js, JSX, CSS
+- **State Management**: Context API
+- **Routing**: React Router
+- **Styling**: Custom CSS
+
+---
